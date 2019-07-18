@@ -1,0 +1,206 @@
+:root{
+    --primary: rgb(0, 132, 255);
+    --light: rgb(110, 228, 31);
+    --dark: rgb(22, 22, 66);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff;
+}
+/* navigation bar */
+nav{
+    grid-area: nav;
+    color: #fff;
+    background-color: var(--primary);
+    height: 300px;
+}
+
+img.header-logo{
+    margin: 5px 0 100px 10px;
+    height: 70px;
+    width: 300px;
+}
+.nav-h1{
+    text-align: center;
+    padding: 0 20px ;
+    font-size: 1.5em;
+}
+div.main-wrapper{
+    margin: 0 30px;
+}
+/* main body */
+main{
+    display: flex;
+    margin: 90px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.left-side{
+    line-height: 35px;
+    flex: 1;
+    min-width: 200px;
+}
+.left-side h2{
+    font-size: 2.2em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+i.fa-angle-double-right{
+    position: absolute;
+    color: var(--light);
+    left: 20px;
+}
+.left-side h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+.left-side ul{
+    margin-left: 50px;
+    list-style-type: disc;
+}
+
+.left-side h4{
+    font-size: 20px;
+    font-size: 1.2em;
+}
+.left-side p{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+.left-side p.note{
+    margin-left: 20px;
+}
+.left-side a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+main .right-side{
+    flex: 1;
+    /* position: relative; */
+    padding-left: 50px;
+}
+img.magazine{
+    height: 16rem;
+    display: flex;
+    margin: auto;
+    width: auto;
+}
+.right-side h2{
+    margin: 30px 10px;
+    font-size: 1.4em;
+}
+.form{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+}
+.fa-circle{
+    color: var(--light);
+    font-size: 7px;
+}
+.form div{
+    display: inline-block;
+}
+.first-name{
+width: 45%;
+margin-right: 5%;
+}
+.last-name{    
+width: 45%
+}
+.email{
+width: 95.6%;
+}
+.company{    
+    width: 95.6%;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+.subscribe{
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0 0px 0;
+    display: inline-block;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+button{
+    padding: 20px 50px;
+    background-color: var(--dark);
+    color: #fff;
+    font-weight: 900;
+    font-size: 17px;
+}
+.small-btn{
+    padding: 10px 70px 10px 10px;
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    border: none;
+}
+/* footer */
+footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    color: var(--primary);
+}
+footer p{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.footer-left span{
+    color: #000;
+}
+.footer-left{
+    flex: 1;
+    margin-bottom: 10px;
+}
+.footer-logo{
+    height: 50px;
+    width: 250px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right-top{
+    margin-bottom: 50px;
+}
+.right-top a, .right-top .fas{
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+footer .fab{
+    color: rgb(85, 80, 80);
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+footer .footer-button{
+    background-color: var(--light);
+    padding: 10px;
+    border: none;
+}
+
